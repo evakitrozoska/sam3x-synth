@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+Debug/
+Release/
+.pio/
+*.o
+*.elf
+*.hex
+*.map
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+/capsense/CY8CPROTO-041TP/bsps/TARGET_APP_CY8CPROTO-041TP/docs/
