@@ -75,12 +75,6 @@ The UART runs at 115200 baud, 8N1. See `parser.c` and `controls.c` for the modul
 
 `songs/` has two transcriptions made just for fun: **"Olson"** by Boards of Canada and the **Tetris theme**, played in WAVETABLE mode with two voices.
 
-## Measurements
-
-| Sawtooth from 14 harmonics | Tone shaped by ADSR | Amplitude LFO on a sine |
-|---|---|---|
-| ![Sawtooth](images/scope-sawtooth.png) | ![ADSR](images/scope-adsr.png) | ![LFO](images/scope-lfo.png) |
-
 ## Future improvements
 
 Digital filters, a reconstruction low-pass filter after the DAC, vibrato (LFO frequency modulation), an intermediate LUT for additive synthesis to cut CPU load, two-way UI communication, presets, sequence recording and MIDI input.
