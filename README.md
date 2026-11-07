@@ -73,7 +73,7 @@ The UART runs at 115200 baud, 8N1. See `parser.c` and `controls.c` for the modul
 
 ## Songs
 
-`songs/` has two transcriptions made just for fun: **"Olson"** by Boards of Canada and the **Tetris theme**, played in WAVETABLE mode with two voices.
+`songs/` has two transcriptions made just for fun: **Afterthought** by Fugazi and the **Tetris theme**, played in WAVETABLE mode with two voices.
 
 ## Future improvements
 
