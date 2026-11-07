@@ -1,4 +1,4 @@
-// Olson - Boards of Canada - two voices
+// Afterthought - Fugazi - two voices
 
 voice_t wavetable_voices[MAX_VOICES] = {
     {

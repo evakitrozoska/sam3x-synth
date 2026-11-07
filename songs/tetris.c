@@ -1,5 +1,6 @@
 // Tetris Theme - 2 voices
 
+
 voice_t wavetable_voices[MAX_VOICES] = {
     // =========================================================================
     // Voice 0 - Melody
@@ -10,24 +11,24 @@ voice_t wavetable_voices[MAX_VOICES] = {
             .harmonics = 1,
             .phase = {0},
             .phase_incr = 0,
-            .ampl = {650},
-            .wave = pulse,
+            .ampl = {400},
+            .wave = saw,
             .state = true
         },
 
         .adsr = {
-            .attack_percent = 0,
+            .attack_percent = 10,
             .decay_percent = 25,
             .sustain_level = 30000,
-            .release_percent = 5
+            .release_percent = 20
         },
 
         .seq = {
             .seq_on = 1,
             .note_change = 0,
             .seq_idx = 0,
-            .steps = 57,
-            .step_ms = 100,
+            .steps = 64,
+            .step_ms = 200,
             .ms_count = 0,
             .sequence = {
                 659,0,
@@ -100,8 +101,8 @@ voice_t wavetable_voices[MAX_VOICES] = {
             .harmonics = 1,
             .phase = {0},
             .phase_incr = 0,
-            .ampl = {500},
-            .wave = pulse,
+            .ampl = {400},
+            .wave = sqr,
             .state = true
         },
 
@@ -116,17 +117,17 @@ voice_t wavetable_voices[MAX_VOICES] = {
             .seq_on = 1,
             .note_change = 0,
             .seq_idx = 0,
-            .steps = 57,
-            .step_ms = 100,
+            .steps = 64,
+            .step_ms = 200,
             .ms_count = 0,
             .sequence = {
                 0,0,
-                196,
+                208,
                 220,
                 247,0,
 
                 220,
-                196,
+                208,
                 165,0,
 
                 165,
@@ -135,7 +136,7 @@ voice_t wavetable_voices[MAX_VOICES] = {
 
                 247,
                 220,
-                196,0,
+                208,0,
 
                 0,
                 220,
@@ -143,9 +144,9 @@ voice_t wavetable_voices[MAX_VOICES] = {
                 262,0,
 
                 220,0,
-                294,0,
+                165,0,
 
-                294,0,0,0,
+                165,0,0,0,
 
                 0,
                 220,0,
@@ -165,9 +166,9 @@ voice_t wavetable_voices[MAX_VOICES] = {
                 247,
                 220,
 
-                196,0,
+                208,0,
 
-                196,
+                208,
                 220,
                 247,0,
 
